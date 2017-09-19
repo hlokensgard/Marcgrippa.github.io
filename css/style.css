@@ -1,3 +1,59 @@
-#test {
-    color: red;
+body {
+    margin: 0;
+    direction: ltr;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+
+}
+
+a:hover{
+    color: darkgray;
+}
+.nav{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    right: 5%;
+}
+
+
+.nav_item{
+    margin: 0 auto;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#introduction{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#intro_picture img{
+    width: 250px;
+    border-radius: 50%;
+
+}
+
+#intro_text{
+    padding: 50px;
 }
