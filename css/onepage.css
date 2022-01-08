@@ -14,16 +14,19 @@ header.masthead {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    max-height: max-content;
 }
 
 header.masthead > .overlay {
     padding: 5rem 0;
     text-align: center;
+    max-height: max-content;
     background: rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 992px) {
     header.masthead > .overlay {
-        padding: 10rem 0;
+        padding: 20rem 0;
+        max-height: max-content;
     }
 }
