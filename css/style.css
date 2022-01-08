@@ -8203,16 +8203,18 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 header.masthead {
-    background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;
+    background: url("http://loekensgard.no/media/Forlovelsesbilde.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 1000px;
 }
 
 header.masthead > .overlay {
     padding: 5rem 0;
     text-align: center;
+    height: 1000px;
     background: rgba(0, 0, 0, 0.6);
 }
 
